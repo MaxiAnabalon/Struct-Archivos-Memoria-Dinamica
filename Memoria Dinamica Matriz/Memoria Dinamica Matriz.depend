@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1693936659 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\memoria dinamica matriz\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
