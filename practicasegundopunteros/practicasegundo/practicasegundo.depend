@@ -1,0 +1,113 @@
+# depslib dependency file v1.0
+1693411644 source:c:\users\admin\desktop\unla\primer a—o\programacion de computadoras\practicasegundo\practicasegundo.c
+	<stdio.h>
+	<stdlib.h>
+
+1693685905 source:c:\users\admin\desktop\unla\primer a—o\programacion de computadoras\practicasegundo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"practicasegundo.h"
+	"empleado.h"
+	"ventas.h"
+
+1693521909 c:\users\admin\desktop\unla\primer a—o\programacion de computadoras\practicasegundo\practicasegundo.h
+
+1693663765 c:\users\admin\desktop\unla\primer a—o\programacion de computadoras\practicasegundo\empleado.h
+
+1693663866 source:c:\users\admin\desktop\unla\primer a—o\programacion de computadoras\practicasegundo\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+
+1693685807 source:c:\users\admin\desktop\unla\primer a—o\programacion de computadoras\practicasegundo\ventas.c
+	<stdio.h>
+	<stdlib.h>
+	"ventas.h"
+
+1693781937 c:\users\admin\desktop\unla\primer a—o\programacion de computadoras\practicasegundo\ventas.h
+
+1693663866 source:c:\users\aula11\desktop\practicasegundo\practicasegundo\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+
+1693663765 c:\users\aula11\desktop\practicasegundo\practicasegundo\empleado.h
+
+1693782044 source:c:\users\aula11\desktop\practicasegundo\practicasegundo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"practicasegundo.h"
+	"empleado.h"
+	"ventas.h"
+
+1693521909 c:\users\aula11\desktop\practicasegundo\practicasegundo\practicasegundo.h
+
+1693782044 c:\users\aula11\desktop\practicasegundo\practicasegundo\ventas.h
+
+1693411644 source:c:\users\aula11\desktop\practicasegundo\practicasegundo\practicasegundo.c
+	<stdio.h>
+	<stdlib.h>
+
+1693782044 source:c:\users\aula11\desktop\practicasegundo\practicasegundo\ventas.c
+	<stdio.h>
+	<stdlib.h>
+	"ventas.h"
+
+1693663868 source:c:\users\admin\desktop\unla\primer a—o\programacion de computadoras\practicasegundopunteros\practicasegundo\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+
+1693663766 c:\users\admin\desktop\unla\primer a—o\programacion de computadoras\practicasegundopunteros\practicasegundo\empleado.h
+
+1693870092 source:c:\users\admin\desktop\unla\primer a—o\programacion de computadoras\practicasegundopunteros\practicasegundo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"practicasegundo.h"
+	"empleado.h"
+	"ventas.h"
+
+1693521910 c:\users\admin\desktop\unla\primer a—o\programacion de computadoras\practicasegundopunteros\practicasegundo\practicasegundo.h
+
+1693869866 c:\users\admin\desktop\unla\primer a—o\programacion de computadoras\practicasegundopunteros\practicasegundo\ventas.h
+
+1693411646 source:c:\users\admin\desktop\unla\primer a—o\programacion de computadoras\practicasegundopunteros\practicasegundo\practicasegundo.c
+	<stdio.h>
+	<stdlib.h>
+
+1693869866 source:c:\users\admin\desktop\unla\primer a—o\programacion de computadoras\practicasegundopunteros\practicasegundo\ventas.c
+	<stdio.h>
+	<stdlib.h>
+	"ventas.h"
+
+1693663868 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\practicasegundopunteros\practicasegundo\empleado.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+
+1693663766 c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\practicasegundopunteros\practicasegundo\empleado.h
+
+1694020112 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\practicasegundopunteros\practicasegundo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"practicasegundo.h"
+	"empleado.h"
+	"ventas.h"
+
+1693521910 c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\practicasegundopunteros\practicasegundo\practicasegundo.h
+
+1694020112 c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\practicasegundopunteros\practicasegundo\ventas.h
+
+1693411646 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\practicasegundopunteros\practicasegundo\practicasegundo.c
+	<stdio.h>
+	<stdlib.h>
+
+1694020112 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\practicasegundopunteros\practicasegundo\ventas.c
+	<stdio.h>
+	<stdlib.h>
+	"ventas.h"
+
