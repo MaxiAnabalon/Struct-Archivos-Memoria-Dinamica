@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1694279274 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\struct memoria dinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1694282317 c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\struct memoria dinamica\funciones.h
+
+1694279132 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\struct memoria dinamica\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

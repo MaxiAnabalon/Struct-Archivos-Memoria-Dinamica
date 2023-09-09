@@ -13,7 +13,7 @@ void sumaReglon(int ** m, int r, int c);
 void sumaColumna(int ** m, int r, int c);
 //Matriz archivo
 void guardarMatrizEnArchivo(int **matriz, int r, int c);
-void leerMatrizenArchivo(int **m, int r, int c);
+//void leerMatrizenArchivo(int **m, int r, int c);
 ;
 /* TAREA
 - BUSCAR EN UNA MATRIZ
@@ -27,7 +27,7 @@ int main()
     int ** matriz;
     matriz = crearMatriz(3, 4);
 
-    //cargarMatrizAleatorio(matriz, 3, 4);
+    cargarMatrizAleatorio(matriz, 3, 4);
     //leerMatrizenArchivo(matriz, 3, 4);
     mostrarMatriz(matriz, 3, 4);
 
@@ -103,7 +103,7 @@ void guardarMatrizEnArchivo(int **matriz, int r, int c) {
     fclose(archivo); // Cerrar el archivo
 }
 
-/*
+
 void guardarMatrizenArchivo(int **m, int r, int c){
 
     FILE * a = fopen("matriz.txt", "w");
@@ -114,7 +114,7 @@ void guardarMatrizenArchivo(int **m, int r, int c){
             fprintf(a,"\n");
         }
 }
-
+/*
 void leerMatrizenArchivo(int **m, int r, int c){
 
     FILE * a = fopen("matriz.txt", "r");
@@ -130,28 +130,8 @@ void leerMatrizenArchivo(int **m, int r, int c){
 
        }
 }
-
-void leerMatrizenArchivo(int * v, char nombreArch[20]){
-
-    FILE * a = fopen(nombreArch, "r");
-    int j=0;
-    int num = 0;
-    while(fscanf(a,"%d;\n",&num)!= EOF){
-        //fgets(num,5, a);
-        int posdelimitador=-1;
-        for (int i=0; i<5; i++){
-            if(num[i]== ';'){
-                posdelimitador = i;
-                i=50;}}
-        char numAux[5] = "";
-        for (int i=0; i<(posdelimitador); i++){
-                numAux[i] = num[i];}
-        v[j] = num;
-        j++;}
-
-    fclose(a);
-}
 */
+
 void liberarMatriz(int ** m, int r){
 
     for (int i=0; i<r; i++){
