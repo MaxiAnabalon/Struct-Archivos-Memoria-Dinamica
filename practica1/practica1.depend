@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1694124898 source:c:\users\juani\desktop\universidad\programacion\code blocks\estructuras\prueba de struct anidada\practica1\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1694190299 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\practica1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

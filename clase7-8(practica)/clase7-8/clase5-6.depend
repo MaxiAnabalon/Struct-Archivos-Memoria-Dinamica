@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1685972435 source:c:\users\aula11\downloads\clase5-6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estudiante.h"
+
+1685972329 source:c:\users\aula11\downloads\clase5-6\estudiante.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estudiante.h"
+
+1685972329 c:\users\aula11\downloads\clase5-6\estudiante.h
+
+1687785687 source:c:\users\aula11\downloads\clase5-6\clase5-6\estudiante.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estudiante.h"
+
+1687785541 c:\users\aula11\downloads\clase5-6\clase5-6\estudiante.h
+
+1687788600 source:c:\users\aula11\downloads\clase5-6\clase5-6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"materia.h"
+	"estudiante.h"
+
+1687788383 source:c:\users\aula11\downloads\clase5-6\clase5-6\materia.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estudiante.h"
+	"materia.h"
+
+1687788649 c:\users\aula11\downloads\clase5-6\clase5-6\materia.h
+	"estudiante.h"
+
+1691367280 source:c:\users\nico_\desktop\clase7-8\clase7-8\estudiante.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estudiante.h"
+
+1691367037 c:\users\nico_\desktop\clase7-8\clase7-8\estudiante.h
+
+1691367315 source:c:\users\nico_\desktop\clase7-8\clase7-8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"materia.h"
+	"estudiante.h"
+
+1691366573 c:\users\nico_\desktop\clase7-8\clase7-8\materia.h
+	"estudiante.h"
+
+1691367144 source:c:\users\nico_\desktop\clase7-8\clase7-8\materia.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estudiante.h"
+	"materia.h"
+
+1691367280 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\clase7-8\clase7-8\estudiante.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estudiante.h"
+
+1694127142 c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\clase7-8\clase7-8\estudiante.h
+
+1694126295 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\clase7-8\clase7-8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"materia.h"
+	"estudiante.h"
+
+1694123895 c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\clase7-8\clase7-8\materia.h
+	"estudiante.h"
+
+1694126395 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\clase7-8\clase7-8\materia.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estudiante.h"
+	"materia.h"
+

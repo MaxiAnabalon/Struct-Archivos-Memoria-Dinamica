@@ -1,6 +1,26 @@
 # depslib dependency file v1.0
-1694010370 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\memoria dinamica vector\main.c
+1694191553 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\memoria dinamica vector\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
+	"vectores.h"
+	"archivos.h"
+
+1694193136 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\memoria dinamica vector\vectores.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"vectores.h"
+	"archivos.h"
+
+1694192016 c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\memoria dinamica vector\vectores.h
+
+1694177789 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\memoria dinamica vector\archivos.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"vectores.h"
+	"archivos.h"
+
+1694191553 c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\memoria dinamica vector\archivos.h
 

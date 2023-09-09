@@ -1,0 +1,9 @@
+1,1
+2,2
+3,3
+juani,19
+maxi,29
+enzo,19
+lanus,16
+lomas,32
+temperley,34

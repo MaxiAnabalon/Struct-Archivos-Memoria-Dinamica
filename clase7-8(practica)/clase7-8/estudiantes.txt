@@ -1,0 +1,6 @@
+9987,nykolai,1.000000,perezz
+76589,MACARENA,10.000000,Lucia
+555,leandro,2.120000,paredes
+232,pepe,9.000000,sand
+3434,walter,4.000000,escoria
+
