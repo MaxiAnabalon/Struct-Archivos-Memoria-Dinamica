@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1694279274 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\struct memoria dinamica\main.c
+1694294653 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\struct memoria dinamica\main.c
 	<stdio.h>
 	<stdlib.h>
 	"funciones.h"
