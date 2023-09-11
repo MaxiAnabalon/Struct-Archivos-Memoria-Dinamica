@@ -88,3 +88,28 @@
 	"estudiante.h"
 	"materia.h"
 
+1691367280 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\clase7-8(practica)\clase7-8\estudiante.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estudiante.h"
+
+1694127142 c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\clase7-8(practica)\clase7-8\estudiante.h
+
+1694126295 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\clase7-8(practica)\clase7-8\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"materia.h"
+	"estudiante.h"
+
+1694123895 c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\clase7-8(practica)\clase7-8\materia.h
+	"estudiante.h"
+
+1694126395 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\clase7-8(practica)\clase7-8\materia.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estudiante.h"
+	"materia.h"
+

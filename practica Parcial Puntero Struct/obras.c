@@ -83,5 +83,5 @@ void buscarObraPorPrecio(ObraPtr o[], int t, float p){
             printf("--------------------------\n");
         }
     }
-    if (e==0){printf("\nObra no encontrada por precio...\n");}
+    if (e==0){printf("\nObra no encontrada por precio...\n\n");}
 }

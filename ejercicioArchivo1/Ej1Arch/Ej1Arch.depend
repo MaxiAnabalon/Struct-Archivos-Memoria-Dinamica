@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1694128910 source:c:\users\pc\documents\5to año santino\santi facultad\ej1arch\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+
+1693524044 c:\users\pc\documents\5to año santino\santi facultad\ej1arch\producto.h
+
+1693520837 source:c:\users\pc\documents\5to año santino\santi facultad\ej1arch\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+
+1694128910 source:c:\users\pc\documents\santino\santi facultad\programacion - 2023\ej1arch\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+
+1693524044 c:\users\pc\documents\santino\santi facultad\programacion - 2023\ej1arch\producto.h
+
+1693520837 source:c:\users\pc\documents\santino\santi facultad\programacion - 2023\ej1arch\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+
+1694128910 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\ejercicioarchivo1\ej1arch\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+
+1693524044 c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\ejercicioarchivo1\ej1arch\producto.h
+
+1693520837 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\ejercicioarchivo1\ej1arch\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+

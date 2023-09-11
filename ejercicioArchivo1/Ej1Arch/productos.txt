@@ -1,0 +1,7 @@
+Bicicleta;230000.00
+Heladera;90000.00
+Microondas;30000.00
+Helado;4000.00
+Asado;4000.00
+VACIO;4000.00
+BANANA;23.00

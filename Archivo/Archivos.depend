@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1600028082 source:c:\users\nico_\desktop\archivos\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1694365680 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\archivo\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,23 @@
+
+
+sfkdsfkdsjfkjdsfkldsEstoy escribiendo un archivo
+<---deje un renglon
+Ahora muestro con entero: 55
+
+Basta, ya escribi demasiadoEstoy escribiendo un archivo
+<---deje un renglon
+Ahora muestro con entero: 55
+
+Basta, ya escribi demasiadoEstoy escribiendo un archivo
+<---deje un renglon
+Ahora muestro con entero: 55
+
+Basta, ya escribi demasiadoEstoy escribiendo un archivo
+<---deje un renglon
+Ahora muestro con entero: 55
+
+Basta, ya escribi demasiadoEstoy escribiendo un archivo
+<---deje un renglon
+Ahora muestro con entero: 55
+
+Basta, ya escribi demasiado
