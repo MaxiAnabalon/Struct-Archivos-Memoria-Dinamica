@@ -1,7 +1,7 @@
 El Beso;Gustav Klimt;17000000.000000
 El Grito;Edvard Munch;11000000.000000
-Van goht;anabalon;23.445000
-rewr;erwer;34.500000
+Noche Estrellada;Van Gogh;23000000.000000
+melisa;mendoza;23.556000
 vacio;vacio;-1.000000
 vacio;vacio;-1.000000
 vacio;vacio;-1.000000

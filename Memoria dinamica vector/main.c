@@ -23,9 +23,9 @@ int main()
 
     vector = crearVector(t);
 
-    cargarVectorTeclado(vector, t);
+    //cargarVectorTeclado(vector, t);
 
-    guardarVectorenArchivo(vector, t, nombreArchivo);
+    //guardarVectorenArchivo(vector, t, nombreArchivo);
     leerVectordeArchivo(vector, nombreArchivo);
 
     mostrarVector(vector, t);

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1694391557 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\practica parcial puntero struct\main.c
+1694397539 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\practica parcial puntero struct\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -18,7 +18,7 @@
 1694378941 c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\practica parcial puntero struct\museo.h
 	"obras.h"
 
-1694378963 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\practica parcial puntero struct\museo.c
+1694397436 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\practica parcial puntero struct\museo.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

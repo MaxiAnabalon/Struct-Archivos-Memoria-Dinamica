@@ -16,15 +16,20 @@ int buscarObraVacia(ObraPtr e[], int t, float p);
 void modificarObra(ObraPtr e[], int t,float p);
 ///Eliminar Obra
 void eliminarObra(ObraPtr e[], int t, float p);
-///Menu de ABM
-
+///Eliminar struct
+void liberarMuseo(MuseoPtr e);
+///Leer Arrays de Strcut Obras
+void leerArrayObras(ObraPtr array[]);
 
 int main()
 {
     MuseoPtr m1;
     //leerMuseoDeArchivo(m1);
+
     m1=cargarMuseoParametro("Bellas Artes",  "Riobanba 1678");
+    //leerArrayObras(m1->obras);
     mostrarMuseo(m1);
+    //liberarMuseo(m1);
     ///agregar obra por precio o  -1, lo  demas es nulo
     //modificarObra(m1->obras, 10, 23000000);
     //agregarObra(m1->obras, 10, -1);
@@ -34,13 +39,38 @@ int main()
     //buscarObraPorNombre(m1->obras, 10, "Noche Estrellada");
     //buscarObraPorPrecio(m1->obras, 10,230000);
     system("pause");
-    system("cls");
+    //system("cls");
     mostrarMuseo(m1);
 
     //guardarMuseoEnArchivo(m1);
 
     return 0;
 }
+
+///LEER UN ARRAY DE MUSEOS
+void leerArrayObras(ObraPtr array[]){
+
+    FILE * archivo = fopen ("obra.txt", "r");
+
+        int j = 0;
+        char nombreAux[50] = "";
+        char autorAux[50] = "";
+        int precioAux = 0;
+
+
+        while (fscanf(archivo,"%49[^;];%49[^;];%f;\n", nombreAux, autorAux, &precioAux) != EOF){
+
+        ObraPtr aux = (ObraPtr)malloc(sizeof(struct Obra));
+
+        strcpy(aux->nombreObra, nombreAux);
+        strcpy(aux->autor, autorAux);
+        aux->precio = precioAux;
+        array[j] = aux;
+
+        j++;}
+        fclose(archivo);
+};
+
 
 void eliminarObra(ObraPtr e[], int t, float p){
 
@@ -125,6 +155,10 @@ void guardarMuseoEnArchivo(MuseoPtr m){
         guardarArraysObraEnArchivo(m->obras , 10);
 
     fclose(a);
+}
+
+void liberarMuseo(MuseoPtr e){
+    free(e);
 }
 
 void guardarArraysObraEnArchivo(ObraPtr o[], int t){
