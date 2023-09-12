@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1694432233 source:c:\users\pc-lenovo\documents\github\struct-archivos-memoria-dinamica\segundo parcial anabalon\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

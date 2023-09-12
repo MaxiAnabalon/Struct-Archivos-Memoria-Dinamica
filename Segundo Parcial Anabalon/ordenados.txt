@@ -1,0 +1,5 @@
+daniel;smith;23;0.23;boca
+walter;alcaraz;1;0.00;boca
+leandro;ortiz;2;0.00;river
+pepe;messi;3;0.80;belgrano
+nico;perez;11;0.10;velez

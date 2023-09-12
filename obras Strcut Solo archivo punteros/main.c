@@ -11,6 +11,7 @@ struct Obra{
 
 typedef struct Obra * ObraPtr;
 
+
 int contarReglonesArchivo(char nombArchivo[]);
 void liberarObra(ObraPtr o[],int t);
 ObraPtr cargarObraParametro(char nom[20], char autor[20], int p);
@@ -31,6 +32,8 @@ int buscarObraVacia(ObraPtr e[], int t, int p);
 void modificarObra(ObraPtr  e[], int t,int p);
 ///Eliminar Obra
 void eliminarObra(ObraPtr e[], int t, int p);
+void cargarObraPosicion(ObraPtr o[], int t,int pos);//cargar obra por teclado en posicion
+void menuVectorAgreagarObraPosicion(ObraPtr o[], int t);///menu  para agreagr obra,  falta mejorar
 
 int main()
 {
@@ -39,8 +42,8 @@ int main()
     ObraPtr *ob;
     ob = (ObraPtr *)malloc(sizeof(ObraPtr)* tam);// Asigna memoria para un arrays de obras
     //ObraPtr ob[tam];
-    //cargarArraysObras(ob, 10);
-    leerArrayObras(ob);
+    cargarArraysObras(ob, tam);
+    //leerArrayObras(ob);
     mostrarArraysObras(ob, tam);
     //ordenarObrasPorNombre(ob, tam);
     //mostrarArraysObras(ob, tam);
@@ -52,6 +55,14 @@ int main()
     //eliminarObra(ob, tam, 230);
     guardarArraysObraEnArchivo(ob, tam);
     liberarObra(ob, tam);
+
+    printf("\n------------ Reutilizo el arrays de Struct Obras con otro tamanio ----------\n");
+    //sleep(2);
+    system("pause");
+    tam=5;
+    ob = (ObraPtr *)malloc(sizeof(ObraPtr)* tam);
+    cargarArraysObras(ob, tam);
+    mostrarArraysObras(ob, tam);
 
     return 0;
 }
@@ -79,6 +90,20 @@ ObraPtr cargarObraPorTeclado(){
     return e;
 
 };
+/*
+void menuVectorAgreagarObraPosicion(ObraPtr o[], int t){
+    int cant=t;
+    int aux=-1;
+    do{
+        printf("\n----Tiene %d obras, elija una posicio para agregar----\n\n");
+        scanf("%d",& aux);
+        if(aux >= 0 && aux < t){cargarObraPosicion(o,t,aux);
+            }
+        else{printf("\n****ERROR ingrese un posicio valida****\n");
+        menuVectorAgreagarObraPosicion(o, t); break;}
+    }while(aux < 0 || aux > t);
+
+}*/
 
 ObraPtr cargarObraParametro(char nom[20], char autor[20], int p){
 
@@ -91,14 +116,18 @@ ObraPtr cargarObraParametro(char nom[20], char autor[20], int p){
     return o;
 };
 
+void cargarObraPosicion(ObraPtr o[], int t,int pos){
+    o[pos]=cargarObraPorTeclado();
+};
+
 void cargarArraysObras(ObraPtr o[], int t){
 
-    for(int i=3; i<t; i++){
-        o[0]=cargarObraParametro("Noche Estrellada","Van Gogh",230);
-        o[1]=cargarObraParametro("El Beso","Gustav Klimt",170);
-        o[2]=cargarObraParametro("El Grito","Edvard Munch",110);
+    for(int i=0; i<t; i++){
         o[i]=cargarObraParametro("vacio","vacio", -1);
     }
+    o[0]=cargarObraParametro("Noche Estrellada","Van Gogh",230);
+    o[1]=cargarObraParametro("El Beso","Gustav Klimt",170);
+    o[2]=cargarObraParametro("El Grito","Edvard Munch",110);
 };
 
 void mostrarObra(ObraPtr o){

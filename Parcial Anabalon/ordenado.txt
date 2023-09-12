@@ -1,0 +1,4 @@
+daniel;smith;23;0.230000;boca
+nico;perez;11;0.100000;velez
+walter;alcaraz;1;0.000000;boca
+leandro;ortiz;2;0.000000;river
